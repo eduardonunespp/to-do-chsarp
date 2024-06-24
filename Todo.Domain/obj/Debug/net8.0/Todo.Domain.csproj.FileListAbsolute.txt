@@ -1,0 +1,13 @@
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\bin\Debug\net8.0\Todo.Domain.deps.json
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\bin\Debug\net8.0\Todo.Domain.dll
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\bin\Debug\net8.0\Todo.Domain.pdb
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\Todo.Domain.csproj.AssemblyReference.cache
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\Todo.Domain.AssemblyInfoInputs.cache
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\Todo.Domain.AssemblyInfo.cs
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\Todo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\Todo.Domain.sourcelink.json
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\Todo.Domain.dll
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\refint\Todo.Domain.dll
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\Todo.Domain.pdb
+C:\Users\carlo\OneDrive\Documentos\backend-developer\to-do-chsarp\Todo.Domain\obj\Debug\net8.0\ref\Todo.Domain.dll

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Todo.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Todo.Domain.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e7649640b8c90bcdf01d2026f6e83580fdf5b3d")]
-[assembly: System.Reflection.AssemblyProductAttribute("Todo.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Todo.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("Todo.Domain.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Todo.Domain.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
