@@ -6,7 +6,6 @@ namespace Todo.Domain.Commands;
 
 public class MarkTodoAsDoneCommand: Notifiable<Notification>, ICommand
 {
-
     public Guid Id { get; set; }
     public string User { get; set; }
     

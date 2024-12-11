@@ -7,9 +7,9 @@ namespace Todo.Domain.Commands;
 public class UpdateTodoCommand: Notifiable<Notification>, ICommand
 {
 
-    public UpdateTodoCommand(string title, string user, Guid Id )
+    public UpdateTodoCommand(string title, string user, Guid id )
     {
-        Id = Id;
+        Id = id;
         Title = title;
         User = user;
     }

@@ -12,49 +12,53 @@ namespace Todo.Domain.Api.Controllers;
     [Route("v1/todos")]
     [Authorize]
     public class TodoController: ControllerBase
-{
+    {
 
+        private readonly TodoHandler _handler;
+        
+    public TodoController(TodoHandler todoHandler)
+    {
+        _handler = todoHandler;
+    }
+    
+    
     [HttpPost()]
     public GenericCommandResult CreateTodo(
-        [FromBody] CreateTodoCommand command,
-        [FromServices] TodoHandler handler
+        [FromBody] CreateTodoCommand command
         )
     {
         var user = User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value;
         command.User = user;
-        return (GenericCommandResult)handler.Handle(command);
+        return (GenericCommandResult)_handler.Handle(command);
     }
     
     [HttpPut()]
     public GenericCommandResult UpdateTodo(
-        [FromBody] UpdateTodoCommand command,
-        [FromServices] TodoHandler handler
+        [FromBody] UpdateTodoCommand command
     )
     {
         var user = User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value;
         command.User = user;
-        return (GenericCommandResult)handler.Handle(command);
+        return (GenericCommandResult)_handler.Handle(command);
     }
     
     [HttpPatch("mark-as-done")]
     public GenericCommandResult MarkAsDoneTodo(
-        [FromBody] MarkTodoAsDoneCommand command,
-        [FromServices] TodoHandler handler
+        [FromBody] MarkTodoAsDoneCommand command
     )
     {
         var user = User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value;
         command.User = user;
-        return (GenericCommandResult)handler.Handle(command);
+        return (GenericCommandResult)_handler.Handle(command);
     }
     
     [HttpPatch("mark-as-undone")]
     public GenericCommandResult MarkAsUndoneTodo(
-        [FromBody] MarkTodoAsUndoneCommand command,
-        [FromServices] TodoHandler handler
+        [FromBody] MarkTodoAsUndoneCommand command
     )
     {
         var user = User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value;
-        return (GenericCommandResult)handler.Handle(command);
+        return (GenericCommandResult)_handler.Handle(command);
     }
 
     [HttpGet()]
